@@ -14,11 +14,10 @@ Gem::Specification.new do |spec|
   spec.description   = 'no description yet'
   spec.homepage      = 'https://github.com/prog1dev/mathquill_rails'
   spec.license       = 'MIT'
-  spec.files         = `git ls-files -z`.split('\x0').reject do |f|
-    f.match(%r{^(test|spec|features)/})
-  end
-  spec.bindir        = 'exe'
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.files         = Dir['lib/**/*.{rb,erb}']
+  spec.files        += Dir['app/**/*']
+  spec.files        += Dir['*.md']
+  spec.files        += ['LICENSE.txt']
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.14'
