@@ -1,0 +1,14 @@
+.mq-editable-field.mq-math-mode  {
+  border: 0px;
+}
+.mq-root-block, .mq-math-mode.mq-root-block {
+  cursor: pointer;
+}
+.with_formula {
+  display: flex;
+  align-items: flex-end;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.with_formula:hover, .with_formula:focus {
+  text-decoration: none;
+}
