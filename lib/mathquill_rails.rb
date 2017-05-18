@@ -1,4 +1,4 @@
-require "mathquill_rails/version"
+require 'mathquill_rails/version'
 
 module MathquillRails
   module Rails
