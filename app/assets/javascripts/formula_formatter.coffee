@@ -1,4 +1,4 @@
-@Qwe = class
+@FormulaFormatter = class
   run: ->
     MQ = MathQuill.getInterface(2);
     $('.with_formula').each (index, elem) ->
