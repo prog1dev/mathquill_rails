@@ -1,4 +1,4 @@
-.mq-editable-field.mq-math-mode  {
+.mq-editable-field.mq-math-mode {
   border: 0px;
   vertical-align: bottom;
   font-family: 'CirceRounded-Regular', sans-serif;
@@ -15,4 +15,12 @@
 
 .mq-sup {
   width: 10px;
+}
+
+.mq-cursor {
+  visibility: hidden;
+}
+
+.mq_blink {
+  visibility: hidden;
 }
