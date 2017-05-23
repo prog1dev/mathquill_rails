@@ -24,3 +24,13 @@
 .mq_blink {
   visibility: hidden;
 }
+
+.mq-editable-field.mq-focused, .mq-math-mode .mq-editable-field.mq-focused {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.mq_focused:focus {
+  box-shadow: none;
+  border-radius: 0;
+}
