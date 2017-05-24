@@ -10,8 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['ivan.filenko']
   spec.email         = ['ivan.filenko@protonmail.com']
 
-  spec.summary       = 'no summary yet'
-  spec.description   = 'no description yet'
+  spec.summary       = 'Mathquill JS library as a rails gem. Adds files to asset pipeline.'
   spec.homepage      = 'https://github.com/prog1dev/mathquill_rails'
   spec.license       = 'MIT'
   spec.files         = Dir['lib/**/*.{rb,erb}']
